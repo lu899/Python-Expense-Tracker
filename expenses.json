@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "description": "Visited an amusment Park",
+        "category": "Transport",
+        "amount": 400,
+        "date": "2025-09-04"
+    },
+    {
+        "id": 2,
+        "description": "Ate some food",
+        "category": "Food",
+        "amount": 309,
+        "date": "2025-09-04"
+    },
+    {
+        "id": 3,
+        "description": "Rode some rides",
+        "category": "Entertainment",
+        "amount": 200,
+        "date": "2025-09-04"
+    },
+    {
+        "id": 4,
+        "description": "Bought Vitamin C Serum",
+        "category": "Skin-Care",
+        "amount": 500,
+        "date": "2025-09-05"
+    },
+    {
+        "id": 5,
+        "description": "Fare to School",
+        "category": "Transport",
+        "amount": 300,
+        "date": "2025-09-05"
+    },
+    {
+        "id": 6,
+        "description": "Bought a phone Charger",
+        "category": "Technology",
+        "amount": 200,
+        "date": "2025-08-05"
+    },
+    {
+        "id": 8,
+        "description": "Took my cat to a vet",
+        "category": "Health",
+        "amount": 1000,
+        "date": "2025-02-05"
+    },
+    {
+        "id": 9,
+        "description": "Bought a pizza",
+        "category": "Food",
+        "amount": 800,
+        "date": "2025-07-05"
+    },
+    {
+        "id": 10,
+        "description": "Ate at a resturant",
+        "category": "Food",
+        "amount": 1500,
+        "date": "2025-08-05"
+    },
+    {
+        "id": 11,
+        "description": "July Rent",
+        "category": "Rent",
+        "amount": 4000,
+        "date": "2025-07-05"
+    },
+    {
+        "id": 12,
+        "description": "August Rent",
+        "category": "Rent",
+        "amount": 4000,
+        "date": "2025-08-05"
+    },
+    {
+        "id": 13,
+        "description": "Period Cramps medicine",
+        "category": "Health",
+        "amount": 200,
+        "date": "2025-02-05"
+    },
+    {
+        "id": 14,
+        "description": "Lance's Birthday Gift",
+        "category": "Personal",
+        "amount": 500,
+        "date": "2025-07-05"
+    },
+    {
+        "id": 15,
+        "description": "Bought a mouse",
+        "category": "Technology",
+        "amount": 300,
+        "date": "2025-08-05"
+    },
+    {
+        "id": 16,
+        "description": "Repair man",
+        "category": "House-Utilities",
+        "amount": 1000,
+        "date": "2025-09-06"
+    }
+]
