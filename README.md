@@ -1,5 +1,11 @@
 # Basic Expense Tracker in Python 
 
+## File Structure
+**main.py** holds the menu where you can access the expense tracker
+**expenses.py** holds all the code which ensures the tracker is functioning
+**utils.py** holds all the reusable code
+
+## Functionality
 This expense tracker has a menu that allows users to:
 - Create a budget -> The budget is created based on how much you want to spen each month for the specific category
 - Add an expense -> Here you add an expense with the description, amount and the date is automatically generated
