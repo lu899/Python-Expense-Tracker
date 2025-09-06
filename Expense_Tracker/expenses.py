@@ -3,21 +3,22 @@ from datetime import datetime
 from utils import loadData, tabulateData, total, getCategories, loadBudget
 import json
 
-filename = "expenses.json"
+filename = "Expense_Tracker/expenses.json"
+budgetfile = "Expense_Tracker/budget.json"
 
 def createBudget():
     category = input("Enter category: ").lower()
     budget = int(input("Enter Monthly Budget: "))
     
     try:
-        budget_data = loadBudget()
+        budget_data = loadBudget(budgetfile)
     except FileNotFoundError:
         budget_data = {}
 
     budget_data[category] = budget
 
     try:
-        with open("budget.json", "w") as file:
+        with open(budgetfile, "w") as file:
             json.dump(budget_data, file, indent=4)
         print("Budget added successfully!!")
     except IOError as e:
@@ -123,7 +124,7 @@ def fullReport():
         monthlyReport(m)
 
 def category_limit_checker(expenses, category):
-    data = loadBudget()
+    data = loadBudget(budgetfile)
     
     if category.lower() in data:
         budget = data[category]*12
@@ -145,7 +146,7 @@ def monthy_limit_checker(expenses, month):
                 total += e["amount"]
         data[category] = total
                 
-    budget = loadBudget()
+    budget = loadBudget(budgetfile)
 
     for key, value in data.items():
         if key in budget:

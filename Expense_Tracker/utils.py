@@ -12,8 +12,8 @@ def loadData(filename):
         expenses = json.load(file)
     return expenses
 
-def loadBudget():
-    with open("budget.json", "r") as file:
+def loadBudget(filename):
+    with open(filename, "r") as file:
         budget_data = json.load(file)
     return budget_data
 
