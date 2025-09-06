@@ -1,9 +1,9 @@
 # Basic Expense Tracker in Python 
 
 ## File Structure
-**main.py** holds the menu where you can access the expense tracker
-**expenses.py** holds all the code which ensures the tracker is functioning
-**utils.py** holds all the reusable code
+**main.py** holds the menu where you can access the expense tracker\
+**expenses.py** holds all the code which ensures the tracker is functioning\
+**utils.py** holds all the reusable code\
 
 ## Functionality
 This expense tracker has a menu that allows users to:
