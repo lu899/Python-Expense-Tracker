@@ -15,5 +15,9 @@ This expense tracker has a menu that allows users to:
 - View month Report -> Here you view the report for a specific month and are notified if you are over that month's budget
 - View Full Report -> You are shown all your expenses categorized into months and are shown on which months you went over budget
 
+In the **visualize-data** branch when you select a *View Full Report* a figure with 3 charts created using matplotlib are shown.
+- Chart 1 is a bar chart that shows all expenses based by months.
+- Chart 2 is a pie chart that shows all expenses based by categories.
+- Chart 3 is a bar chart that shows which categories were over budget.
 ## Data Management
 The expenses and budget data are stored in a json file so that the data is not lost.
