@@ -1,4 +1,5 @@
-from expenses import addExpense, deleteExpense, viewExpenses, viewCategory, monthlyReport, fullReport, createBudget
+from expenses import addExpense, deleteExpense, viewExpenses, viewCategory, monthlyReport, createBudget
+from reports import fullReport
 
 def main():
     isRunning = True

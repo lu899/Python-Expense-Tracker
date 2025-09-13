@@ -1,0 +1,12 @@
+{
+    "transport": 10,
+    "food": 100,
+    "rent": 4000,
+    "health": 2000,
+    "personal": 2000,
+    "technology": 100,
+    "entertainment": 500,
+    "skin-care": 2000,
+    "gifts": 500,
+    "house-utilities": 2000
+}

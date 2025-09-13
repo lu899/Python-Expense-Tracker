@@ -12,8 +12,8 @@ def loadData(filename):
         expenses = json.load(file)
     return expenses
 
-def loadBudget():
-    with open("budget.json", "r") as file:
+def loadBudget(filename):
+    with open(filename, "r") as file:
         budget_data = json.load(file)
     return budget_data
 
@@ -31,3 +31,13 @@ def getCategories(expenses):
             categories.append(e["category"].lower())
     
     return categories
+
+def categoryData(expences, categories):
+    data = {}
+    for c in categories:
+        total = 0
+        for e in expences:
+            if c == e["category"].lower():
+                total += e["amount"]
+        data[c.title()] = total
+    return data
